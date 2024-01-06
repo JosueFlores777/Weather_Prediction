@@ -1,4 +1,4 @@
-#WeatherApp
+## WeatherApp
 
 A web application that displays weather information using the OpenWeatherMap API.
 
