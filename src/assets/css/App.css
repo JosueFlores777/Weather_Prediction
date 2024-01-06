@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Hind&family=Manrope:wght@600&display=swap');
+body{
+  background: rgba(151, 161, 165, 0.185);
+}
+.App {
+  text-align: center;
+}
+
+Form{
+  margin-top: 45px;
+}
+
+.input-group{
+  width: 60%;
+  height: 50%;
+
+}
+
+.card{
+  max-width: 80%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px ;
+}
+
+.card img{
+  margin: 25px;
+  margin-top: 30px;
+  opacity: 100;
+}
+
+
+.card-title{
+  position: absolute;
+  padding: 35px;
+  font-size: 45px;
+  color: black;
+}
+
+.card-date{
+  position: absolute;
+  padding: 45px;
+  margin-top: 40px;
+  color: #000;
+}
+
+.card-temp{
+  position: absolute;
+  padding-left: 90px;
+  margin-top: 469px;
+  color:rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+.card-desc{
+  position: absolute;
+  padding-left: 30px;
+  margin-top: 400px;
+  
+}
+.card-body{
+  padding: 35px;
+  margin-left: 45px;
+  margin-right: 120px;
+}
+
+.card-text{
+  font-size: 30px;
+}
+
+hr{
+  border: 2px solid #000000; 
+}
+
+.date{
+  margin-top: 15px;
+  font-family: 'Manrope', sans-serif; 
+}
+
+.description{
+  margin-top: -45px;
+  font-size: 25px;
+  color: black;
+  font-family: 'Dosis', sans-serif;
+}
+.description p{
+  margin-top: -45px;
+}
+
+.tempe{
+  font-size: 20px;
+  font-family: 'Hind', sans-serif;
+}
+
+.container1 {
+  position: relative;
+  width: 60%;
+
+}
+
+.redb {
+  left: 70px;
+}
+
+.greenb {
+  left: 249px;
+}
+
+.blueb {
+  left: 430px;
+}
+
+.blueb,.redb,.greenb{
+  position: absolute;
+  width: 150px;
+  height: 210px;
+  border-radius: 25px;
+  background-color: rgba(225, 225, 225, 0.772);
+}
+
+.icon{
+  width: 60%;
+  height: auto;
+}
+

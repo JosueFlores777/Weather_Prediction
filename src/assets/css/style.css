@@ -1,0 +1,29 @@
+
+nav{
+    background: rgb(14, 0, 0);
+    height: 100px;
+    border-bottom: 112px;
+}
+
+.navbar h3 {
+    font-size: 44px; 
+    font-weight: 800;
+}
+
+.flooter {
+    background-color: #333; 
+    padding: 20px; 
+    position: fixed;
+    bottom: 0PX;
+    left: 0;
+    height: 5px;
+    width: 100%;
+}
+  
+ 
+.flooter h3 {
+    margin: 0;
+    margin-top: 15PX;
+    color: #fff; 
+    text-align: center; 
+  }
