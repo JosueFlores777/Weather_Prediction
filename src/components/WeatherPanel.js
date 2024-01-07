@@ -4,9 +4,9 @@ import Card from './Card';
 
 const WeatherPanel = () => {
 
-    let urlWeather = "https://api.openweathermap.org/data/2.5/weather?appid=c51d14a2038f38b7036ef07075c59c84&lang=es";
+    let urlWeather = "https://api.openweathermap.org/data/2.5/weather?appid=&lang=es";
     let cityUrl = "&q=";
-    let urlForecast = "https://api.openweathermap.org/data/2.5/forecast?appid=c51d14a2038f38b7036ef07075c59c84&lang=es"
+    let urlForecast = "https://api.openweathermap.org/data/2.5/forecast?appid=&lang=es"
 
     const [weather, setWeather] = useState([]);
     const [forecast, setForecast] = useState([]);
